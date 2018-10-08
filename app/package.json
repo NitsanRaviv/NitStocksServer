@@ -1,0 +1,42 @@
+{
+  "name": "10_ts_crud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon -L --require ts-node/register ./main.ts",
+    "build": "rimraf dist && tsc",
+    "prod": "node dist/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/body-parser": "^1.17.0",
+    "@types/cli-color": "^0.3.29",
+    "@types/express": "^4.16.0",
+    "@types/morgan": "^1.7.35",
+    "@types/node": "^10.9.4",
+    "nodemon": "^1.18.4",
+    "rimraf": "^2.6.2",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.0.3"
+  },
+  "dependencies": {
+    "@types/socket.io": "^1.4.38",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "cli-color": "^1.2.0",
+    "compression": "^1.7.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "pg": "^6.1.0",
+    "reflect-metadata": "^0.1.12",
+    "routing-controllers": "^0.7.7",
+    "sequelize": "^3.33.0",
+    "sequelize-typescript": "^0.6.6",
+    "socket.io": "^2.1.1",
+    "winston": "^3.1.0"
+  }
+}
